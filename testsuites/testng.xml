@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="HappyFlow">
+    <classes>
+      <class name="swaglabs.Mainclass.SwagLabs"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Loginvalidation">
+    <classes>
+      <class name="swaglabs.Mainclass.LoginHandling"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->

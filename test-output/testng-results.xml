@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-10T23:50:10 IST" name="Suite" finished-at="2024-03-10T23:50:39 IST" duration-ms="28950">
+    <groups>
+      <group name="Smoke">
+        <method signature="SwagLabs.SwagLabs_Main(java.util.HashMap)[pri:0, instance:swaglabs.Mainclass.SwagLabs@7f0eb4b4]" name="SwagLabs_Main" class="swaglabs.Mainclass.SwagLabs"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-03-10T23:50:10 IST" name="HappyFlow" finished-at="2024-03-10T23:50:39 IST" duration-ms="28950">
+      <class name="swaglabs.Mainclass.SwagLabs">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:swaglabs.Mainclass.SwagLabs@7f0eb4b4]" started-at="2024-03-10T23:50:10 IST" name="launchApplication" finished-at="2024-03-10T23:50:12 IST" duration-ms="2185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SwagLabs_Main(java.util.HashMap)[pri:0, instance:swaglabs.Mainclass.SwagLabs@7f0eb4b4]" started-at="2024-03-10T23:50:12 IST" name="SwagLabs_Main" data-provider="getdata" finished-at="2024-03-10T23:50:25 IST" duration-ms="12696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pwd=secret_sauce, product_buy=Sauce Labs Fleece Jacket, username=standard_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwagLabs_Main -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:swaglabs.Mainclass.SwagLabs@7f0eb4b4]" started-at="2024-03-10T23:50:25 IST" name="teardown" finished-at="2024-03-10T23:50:25 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:swaglabs.Mainclass.SwagLabs@7f0eb4b4]" started-at="2024-03-10T23:50:25 IST" name="launchApplication" finished-at="2024-03-10T23:50:26 IST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SwagLabs_Main(java.util.HashMap)[pri:0, instance:swaglabs.Mainclass.SwagLabs@7f0eb4b4]" started-at="2024-03-10T23:50:26 IST" name="SwagLabs_Main" data-provider="getdata" finished-at="2024-03-10T23:50:39 IST" duration-ms="12609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pwd=secret_sauce, product_buy=Sauce Labs Bike Light, username=standard_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwagLabs_Main -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:swaglabs.Mainclass.SwagLabs@7f0eb4b4]" started-at="2024-03-10T23:50:39 IST" name="teardown" finished-at="2024-03-10T23:50:39 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- swaglabs.Mainclass.SwagLabs -->
+    </test> <!-- HappyFlow -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<groups>
+	<run>
+		<include name = "Smoke"/>
+	</run>
+</groups>
+  <test thread-count="5" name="HappyFlow">
+    <classes>
+      <class name="swaglabs.Mainclass.SwagLabs"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->
